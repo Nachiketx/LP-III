@@ -59,7 +59,7 @@ Enter number of terms in Fibonacci sequence: 9
 Enter number of terms in Fibonacci sequence: 7
 1. Recursive, 2. Iterative, 3. Exit: 3
 Exiting the program.
-
+***************************************************************************************************************************************************************
 huffman.py
 import heapq
 from collections import defaultdict
@@ -122,7 +122,7 @@ Encoded text: 1010000100100110000111110010011011101001101010110111110111
 Huffman Codes: {'f': '100', 'n': '111', 'u': '000', ' ': '0010', 'a': '0011', 'c': '0100', 'd': '0101', 'e':
 '0110', 'g': '0111', 'h': '1010', 'i': '1011', 'm': '1100', 'o': '1101'}
 Decoded text: huffman encoding
-
+*************************************************************************************************************************************************
 Fractional_knapsack.py
 def fractional_knapsack(value, weight, capacity):
  # Calculate the value-to-weight ratio
@@ -161,7 +161,7 @@ Enter the positive weights of the 3 item(s) in order: 10 20 30
 Enter maximum weight: 50
 The maximum value of items that can be carried: 240.0
 The fractions in which the items should be taken: [1, 1, 0.6666666666666666]
-
+******************************************************************************************************************************************************************
 0_1_dp.py
 def knapsack_dp(weights, values, W, n):
 dp = [[0 for _ in range(W+1)] for _ in range(n+1)]
@@ -228,7 +228,7 @@ Item 5: Weight = 15, Value = 90
 Item 4: Weight = 5, Value = 50
 Item 2: Weight = 20, Value = 100
 Item 1: Weight = 10, Value = 60
-
+******************************************************************************************************************************************************************************
 0_1_branch_bound.py
 class Item:
 def __init__(self, value, weight):
@@ -306,7 +306,7 @@ Items included (weights and values):
 Item 1: Weight = 3, Value = 10
 Item 2: Weight = 2, Value = 5
 Item 4: Weight = 1, Value = 7
-
+******************************************************************************************************************************************************************************
 n_queens.py
 def is_safe(board, row, col, n):
 for i in range(row):
@@ -368,7 +368,7 @@ Q . . . . . . .
 . . . . . . Q .
 . Q . . . . . .
 . . . Q . . . .
-
+******************************************************************************************************************************************************************************
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 /**
